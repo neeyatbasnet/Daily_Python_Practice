@@ -1,0 +1,1 @@
+print("Starting with my python coding practice journey today")
