@@ -3,9 +3,9 @@ if __name__=="__main__":
     for i in range(t):
         try:
             a,b=map(int,input().split())
-            x=1//0
+            x=a//b
             print(x)
-        except ZeroDivisionError:
-            print("Error Code:integer division or modulo by zero")
+        except ZeroDivisionError as e:
+            print("Error Code:",e)
         except ValueError as v:
             print("Error Code:",v)
