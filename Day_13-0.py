@@ -2,6 +2,7 @@
 import re
 
 sum=0
+i=1
 try:
     with open("textfile.txt","r") as f:
         for line in f:
